@@ -2,9 +2,9 @@ package com.example;
 
 import java.util.List;
 
-public class LionAlex extends Lion{
+public class LionAlex extends Lion {
 
-    public LionAlex() throws Exception{
+    public LionAlex() throws Exception {
         super("Самец");
     }
 
@@ -20,5 +20,4 @@ public class LionAlex extends Lion{
     public int getKittens() {
         return 0;
     }
-
 }

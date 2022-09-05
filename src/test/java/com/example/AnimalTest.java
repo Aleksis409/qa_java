@@ -18,7 +18,7 @@ public class AnimalTest {
         this.typeOfAnimalFood = typeOfAnimalFood;
     }
 
-    @Parameterized.Parameters  //данные для теста метода getFood()
+    @Parameterized.Parameters(name = "Тестовые данные: {0} {1}")  //данные для теста метода getFood()
     public static Object[] getTypeOfAnimalFood() {
         return new Object[][]{
                 {"Травоядное", List.of("Трава", "Различные растения")},

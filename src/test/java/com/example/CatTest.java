@@ -31,5 +31,4 @@ public class CatTest {
         List<String> actualResult = cat.getFood();
         assertEquals("Должна быть еда хищников  - \"Животные\", \"Птицы\", \"Рыба\"", expectedResult, actualResult);
     }
-
 }

@@ -60,5 +60,4 @@ public class LionTest {
         List<String> expectedResult = List.of("Животные", "Птицы", "Рыба");
         assertEquals("Должна быть еда хищников  - \"Животные\", \"Птицы\", \"Рыба\"", expectedResult, actualResult);
     }
-
 }

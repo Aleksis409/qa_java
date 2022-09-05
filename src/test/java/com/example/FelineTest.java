@@ -25,7 +25,7 @@ public class FelineTest {
         this.expectedNumberOfKittens = expectedNumberOfKittens;
     }
 
-    @Parameterized.Parameters // данные для теста метода getKittens(int)
+    @Parameterized.Parameters(name = "Тестовые данные: {0} {1}") // данные для теста метода getKittens(int)
     public static Object[] getNumberOfKittens() {
         return new Object[][]{
                 {0, 0},
@@ -71,5 +71,4 @@ public class FelineTest {
         List<String> actualResult = felineSpy.eatMeat();
         assertEquals("Должна быть еда хищников  - \"Животные\", \"Птицы\", \"Рыба\"", expectedResult, actualResult);
     }
-
 }
